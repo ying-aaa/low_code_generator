@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "nodenext",
+    "types": [
+      "node",
+      "jqueryui"
+    ],
+     "baseUrl": ".",
+     "paths": {
+         "@/*": [ "src/*" ]
+     }
+  },
+  "include": [
+    "src/**/*"
+, "jqueryui.d.ts", "jqueryui.d.ts"  ],
+  "exclude": []
+}
